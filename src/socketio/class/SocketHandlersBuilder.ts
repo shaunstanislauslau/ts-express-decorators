@@ -1,7 +1,7 @@
 import * as SocketIO from "socket.io";
 import {$log} from "ts-log-debug";
-import {Store} from "../../core";
-import {ProviderStorable} from "../../di/class/ProviderStorable";
+import {Store} from "../../common/core";
+import {ProviderStorable} from "../../common/di/class/ProviderStorable";
 import {ISocketHandlerMetadata} from "../interfaces/ISocketHandlerMetadata";
 import {ISocketParamMetadata} from "../interfaces/ISocketParamMetadata";
 import {ISocketProviderMetadata} from "../interfaces/ISocketProviderMetadata";

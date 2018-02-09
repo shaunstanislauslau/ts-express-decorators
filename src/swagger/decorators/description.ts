@@ -1,6 +1,6 @@
-import {Store} from "../../core/class/Store";
-import {getDecoratorType} from "../../core/utils";
-import {Schema} from "../../jsonschema/decorators/schema";
+import {Store} from "../../common/core/class/Store";
+import {getDecoratorType} from "../../common/core/utils";
+import {Schema} from "../../common/jsonschema/decorators/schema";
 import {BaseParameter} from "./baseParameter";
 import {Operation} from "./operation";
 

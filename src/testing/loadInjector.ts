@@ -3,12 +3,12 @@
  */
 /** */
 
-import {globalServerSettings} from "../config";
-import {Env} from "../core/interfaces";
-import {InjectorService} from "../di/services/InjectorService";
-import {ExpressApplication} from "../mvc/decorators";
-import {HttpServer} from "../server/decorators/httpServer";
-import {HttpsServer} from "../server/decorators/httpsServer";
+import {globalServerSettings} from "../common/config";
+import {Env} from "../common/core/interfaces";
+import {InjectorService} from "../common/di/services/InjectorService";
+import {ExpressApplication} from "../common/mvc/decorators";
+import {HttpServer} from "../common/server/decorators/httpServer";
+import {HttpsServer} from "../common/server/decorators/httpsServer";
 
 export function loadInjector() {
     if (!InjectorService.has(ExpressApplication)) {

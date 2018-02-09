@@ -1,6 +1,6 @@
-import {Store} from "../../../../src/core/class/Store";
-import {decoratorArgs} from "../../../../src/core/utils";
-import {ControllerRegistry} from "../../../../src/mvc/registries/ControllerRegistry";
+import {Store} from "../../../../src/common/core/class/Store";
+import {decoratorArgs} from "../../../../src/common/core/utils";
+import {ControllerRegistry} from "../../../../src/common/mvc/registries/ControllerRegistry";
 import {Name} from "../../../../src/swagger/decorators/name";
 import {expect} from "../../../tools";
 

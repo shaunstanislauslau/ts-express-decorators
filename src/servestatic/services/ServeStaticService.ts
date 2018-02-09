@@ -1,7 +1,7 @@
 import * as Express from "express";
-import {ServerSettingsService} from "../../config/services/ServerSettingsService";
-import {Service} from "../../di/decorators/service";
-import {ExpressApplication} from "../../mvc/decorators";
+import {ServerSettingsService} from "../../common/config/services/ServerSettingsService";
+import {Service} from "../../common/di/decorators/service";
+import {ExpressApplication} from "../../common/mvc/decorators";
 
 @Service()
 export class ServeStaticService {

@@ -1,4 +1,4 @@
-import {Store} from "../../../../src/core/class/Store";
+import {Store} from "../../../../src/common/core/class/Store";
 import { Example } from "../../../../src/swagger/decorators/example";
 import {expect} from "../../../tools";
 

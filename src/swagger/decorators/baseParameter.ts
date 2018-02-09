@@ -1,6 +1,6 @@
 import {BaseParameter} from "swagger-schema-official";
-import {Store} from "../../core/class/Store";
-import {DecoratorParameters} from "../../core/interfaces";
+import {Store} from "../../common/core/class/Store";
+import {DecoratorParameters} from "../../common/core/interfaces";
 
 /**
  *

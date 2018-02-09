@@ -4,7 +4,7 @@
 /** */
 
 import {Response} from "swagger-schema-official";
-import {Store} from "../../core/class/Store";
+import {Store} from "../../common/core/class/Store";
 
 /**
  *

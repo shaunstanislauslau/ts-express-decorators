@@ -1,7 +1,7 @@
 import {Operation, Path, Response} from "swagger-schema-official";
-import {Store} from "../../core/class/Store";
-import {deepExtends} from "../../core/utils";
-import {EndpointMetadata} from "../../mvc/class/EndpointMetadata";
+import {Store} from "../../common/core/class/Store";
+import {deepExtends} from "../../common/core/utils";
+import {EndpointMetadata} from "../../common/mvc/class/EndpointMetadata";
 import {toSwaggerPath} from "../utils";
 import {OpenApiParamsBuilder} from "./OpenApiParamsBuilder";
 import {OpenApiPropertiesBuilder} from "./OpenApiPropertiesBuilder";

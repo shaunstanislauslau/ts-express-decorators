@@ -1,5 +1,5 @@
 import {globalServerSettings} from "../services/GlobalSerttings";
-import {getClass} from "../../core/utils";
+import {getClass} from "../../core/utils/index";
 
 /**
  * Return value from ServerSettingsService.

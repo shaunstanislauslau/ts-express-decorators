@@ -1,7 +1,7 @@
 import * as Https from "https";
-import {Env, Metadata} from "../../core";
-import {getValue} from "../../core/utils";
-import {SERVER_SETTINGS} from "../constants";
+import {Env, Metadata} from "../../../common/core/index";
+import {getValue} from "../../../common/core/utils/index";
+import {SERVER_SETTINGS} from "../constants/index";
 import {IRouterOptions} from "../interfaces/IRouterOptions";
 import {ILoggerSettings, IServerMountDirectories, IServerSettings} from "../interfaces/IServerSettings";
 

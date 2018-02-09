@@ -1,5 +1,5 @@
 import {assert, expect} from "chai";
-import {CastError} from "../../../../src/core/errors/CastError";
+import {CastError} from "../../../../src/common/core/errors/CastError";
 
 describe("CastError", () => {
     describe("constructor", () => {

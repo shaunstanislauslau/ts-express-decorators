@@ -1,6 +1,6 @@
 import {expect} from "chai";
-import {Readonly, Writable} from "../../../../src/core/decorators";
-import {descriptorOf} from "../../../../src/core/utils";
+import {Readonly, Writable} from "../../../../src/common/core/decorators";
+import {descriptorOf} from "../../../../src/common/core/utils";
 
 class Test {
 }

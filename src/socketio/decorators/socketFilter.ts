@@ -1,4 +1,4 @@
-import {Store} from "../../core";
+import {Store} from "../../common/core";
 import {SocketFilters} from "../interfaces/SocketFilters";
 
 export function SocketFilter(filter: SocketFilters, mapIndex?: number) {

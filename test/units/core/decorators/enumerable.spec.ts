@@ -1,7 +1,7 @@
 import {expect} from "chai";
-import {NotEnumerable} from "../../../../src/core/decorators";
-import {Enumerable} from "../../../../src/core/decorators/enumerable";
-import {descriptorOf} from "../../../../src/core/utils";
+import {NotEnumerable} from "../../../../src/common/core/decorators";
+import {Enumerable} from "../../../../src/common/core/decorators/enumerable";
+import {descriptorOf} from "../../../../src/common/core/utils";
 
 class Test {
     test: string;

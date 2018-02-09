@@ -1,4 +1,4 @@
-import {InjectorService} from "../di/services/InjectorService";
+import {InjectorService} from "../common/di/services/InjectorService";
 /**
  * @module testing
  */

@@ -1,7 +1,7 @@
-import {Store} from "../../../../src/core/class/Store";
+import {Store} from "../../../../src/common/core/class/Store";
 import {Summary} from "../../../../src/swagger/decorators/summary";
 import {assert, expect} from "../../../tools";
-import {descriptorOf} from "../../../../src/core/utils";
+import {descriptorOf} from "../../../../src/common/core/utils";
 
 
 class Test {

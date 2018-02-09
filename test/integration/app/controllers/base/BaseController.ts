@@ -1,5 +1,5 @@
-import {PathParams} from "../../../../../src/filters/decorators/pathParams";
-import {Get} from "../../../../../src/mvc/decorators/method/route";
+import {PathParams} from "../../../../../src/common/filters/decorators/pathParams";
+import {Get} from "../../../../../src/common/mvc/decorators/method/route";
 import {Description} from "../../../../../src/swagger/decorators/description";
 import {Summary} from "../../../../../src/swagger/decorators/summary";
 

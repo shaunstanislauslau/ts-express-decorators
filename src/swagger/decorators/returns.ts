@@ -1,6 +1,6 @@
-import {Store} from "../../core/class/Store";
-import {Type} from "../../core/interfaces";
-import {mapReturnedResponse} from "../../mvc/utils/mapReturnedResponse";
+import {Store} from "../../common/core/class/Store";
+import {Type} from "../../common/core/interfaces";
+import {mapReturnedResponse} from "../../common/mvc/utils/mapReturnedResponse";
 import {ISwaggerResponses} from "../interfaces/ISwaggerResponses";
 
 /**

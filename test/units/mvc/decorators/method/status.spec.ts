@@ -1,12 +1,12 @@
 import * as Proxyquire from "proxyquire";
-import {Store} from "../../../../../src/core/class/Store";
+import {Store} from "../../../../../src/common/core/class/Store";
 import {FakeResponse} from "../../../../helper/FakeResponse";
 import {expect, Sinon} from "../../../../tools";
 
 const middleware: any = Sinon.stub();
 const UseAfter: any = Sinon.stub().returns(middleware);
 
-const {Status} = Proxyquire.load("../../../../../src/mvc/decorators/method/status", {
+const {Status} = Proxyquire.load("../../../../../src/common/mvc/decorators/method/status", {
     "./useAfter": {UseAfter}
 });
 

@@ -1,7 +1,7 @@
 import * as Proxyquire from "proxyquire";
 import * as Sinon from "sinon";
-import {Store} from "../../../../src/core/class/Store";
-import {descriptorOf} from "../../../../src/core/utils";
+import {Store} from "../../../../src/common/core/class/Store";
+import {descriptorOf} from "../../../../src/common/core/utils";
 import {MultipartFileFilter} from "../../../../src/multipartfiles/filters/MultipartFileFilter";
 import {MultipartFilesFilter} from "../../../../src/multipartfiles/filters/MultipartFilesFilter";
 import {MultipartFileMiddleware} from "../../../../src/multipartfiles/middlewares/MultipartFileMiddleware";
@@ -15,9 +15,9 @@ const middleware: any = Sinon.stub();
 const UseBefore: any = Sinon.stub().returns(middleware);
 
 const {MultipartFile} = Proxyquire.load("../../../../src/multipartfiles/decorators/multipartFile", {
-    "../../filters/registries/ParamRegistry": {ParamRegistry},
-    "../../core/class/Metadata": {Metadata},
-    "../../mvc/decorators/method/useBefore": {UseBefore}
+    "../../common/filters/registries/ParamRegistry": {ParamRegistry},
+    "../../common/core/class/Metadata": {Metadata},
+    "../../common/mvc/decorators/method/useBefore": {UseBefore}
 });
 
 class Test {

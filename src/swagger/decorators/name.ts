@@ -1,5 +1,5 @@
-import {Store} from "../../core/class/Store";
-import {getDecoratorType} from "../../core/utils/index";
+import {Store} from "../../common/core/class/Store";
+import {getDecoratorType} from "../../common/core/utils/index";
 import {BaseParameter} from "./baseParameter";
 
 /**

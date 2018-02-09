@@ -1,4 +1,4 @@
-import {Store} from "../../../../src/core/class/Store";
+import {Store} from "../../../../src/common/core/class/Store";
 import {Args} from "../../../../src/socketio";
 import {expect} from "../../../tools";
 

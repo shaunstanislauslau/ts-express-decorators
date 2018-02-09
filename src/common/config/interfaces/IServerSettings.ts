@@ -4,7 +4,7 @@
 /** */
 
 import * as Https from "https";
-import {Env} from "../../core/interfaces";
+import {Env} from "../../core/interfaces/index";
 
 export interface IServerMountDirectories {
     [endpoint: string]: any | string | (any | string)[];

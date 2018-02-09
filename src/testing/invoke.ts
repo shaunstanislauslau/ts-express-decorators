@@ -1,5 +1,5 @@
-import {Type} from "../core/interfaces";
-import {InjectorService} from "../di/services/InjectorService";
+import {Type} from "../common/core/interfaces";
+import {InjectorService} from "../common/di/services/InjectorService";
 import {loadInjector} from "./loadInjector";
 
 export function invoke(target: Type<any>, providers: { provide: any | symbol, use: any }[]) {

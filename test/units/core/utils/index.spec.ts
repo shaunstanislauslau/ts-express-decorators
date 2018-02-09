@@ -11,7 +11,7 @@ import {
     isPrimitiveOrPrimitiveClass,
     nameOf,
     promiseTimeout
-} from "../../../../src/core/utils/index";
+} from "../../../../src/common/core/utils/index";
 import {expect, Sinon} from "../../../tools";
 
 class Test {

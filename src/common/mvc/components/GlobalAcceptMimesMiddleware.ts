@@ -22,7 +22,7 @@ export class GlobalAcceptMimesMiddleware implements IMiddleware {
 
         this.serverSettingsService
             .acceptMimes
-            .forEach((mime) => {
+            .forEach((mime: any) => {
                 if (!request.accepts(mime)) {
                     throw new NotAcceptable(mime);
                 }

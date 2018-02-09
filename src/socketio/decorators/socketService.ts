@@ -1,5 +1,5 @@
-import {Store} from "../../core";
-import {Service} from "../../di";
+import {Store} from "../../common/core";
+import {Service} from "../../common/di";
 
 /**
  * The decorators `@SocketService()` declare a new socket service (and service) can be injected in other service or controller on there `constructor`.

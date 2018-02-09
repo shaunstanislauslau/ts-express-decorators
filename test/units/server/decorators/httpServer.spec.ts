@@ -1,5 +1,5 @@
-import {Metadata} from "../../../../src/core/class/Metadata";
-import {HttpServer} from "../../../../src/server";
+import {Metadata} from "../../../../src/common/core/class/Metadata";
+import {HttpServer} from "../../../../src/common/server";
 import {Sinon} from "../../../tools";
 
 

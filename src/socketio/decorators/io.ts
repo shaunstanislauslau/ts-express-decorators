@@ -1,6 +1,6 @@
 import {SocketIOServer} from "../";
-import {Type} from "../../core/interfaces";
-import {Inject} from "../../di";
+import {Type} from "../../common/core/interfaces";
+import {Inject} from "../../common/di";
 
 /**
  * Inject the [SocketIO.Server](https://socket.io/docs/server-api/) instance in the decorated parameter.

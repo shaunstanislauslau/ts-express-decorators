@@ -2,7 +2,7 @@ import {JsonProperty} from "../../../../src";
 import {Description} from "../../../../src/swagger/decorators/description";
 import {Example} from "../../../../src/swagger/decorators/example";
 import {Title} from "../../../../src/swagger/decorators/title";
-import {Required} from "../../../../src/mvc/decorators";
+import {Required} from "../../../../src/common/mvc/decorators";
 
 export class CalendarModel {
 

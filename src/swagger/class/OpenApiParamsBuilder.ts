@@ -3,11 +3,11 @@
  */
 /** */
 import {BaseParameter, BodyParameter, Parameter, Schema} from "swagger-schema-official";
-import {Type} from "../../core/interfaces";
-import {deepExtends, nameOf} from "../../core/utils";
+import {Type} from "../../common/core/interfaces";
+import {deepExtends, nameOf} from "../../common/core/utils";
 
-import {ParamMetadata} from "../../filters/class/ParamMetadata";
-import {ParamRegistry} from "../../filters/registries/ParamRegistry";
+import {ParamMetadata} from "../../common/filters/class/ParamMetadata";
+import {ParamRegistry} from "../../common/filters/registries/ParamRegistry";
 import {swaggerType} from "../utils";
 import {OpenApiPropertiesBuilder} from "./OpenApiPropertiesBuilder";
 

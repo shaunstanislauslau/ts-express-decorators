@@ -70,7 +70,7 @@ $log.name = "TSED";
 $log.level = "info";
 
 export abstract class ServerLoader implements IServerLifecycle {
-    public version: string = require("../../../package.json").version;
+    public version: string = require("../../../../package.json").version;
     private _expressApp: Express.Application = Express();
     private _settings: ServerSettingsProvider;
     private _components: IComponentScanned[] = [];

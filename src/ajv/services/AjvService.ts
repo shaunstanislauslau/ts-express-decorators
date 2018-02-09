@@ -2,13 +2,13 @@ import * as Ajv from "ajv";
 import {ErrorObject} from "ajv";
 import {BadRequest} from "ts-httpexceptions";
 import {$log} from "ts-log-debug";
-import {ServerSettingsService} from "../../config/services/ServerSettingsService";
-import {ConverterService} from "../../converters";
-import {Type} from "../../core/interfaces";
-import {nameOf} from "../../core/utils";
-import {OverrideService} from "../../di/decorators/overrideService";
-import {ValidationService} from "../../filters/services/ValidationService";
-import {JsonSchemesService} from "../../jsonschema/services/JsonSchemesService";
+import {ServerSettingsService} from "../../common/config/services/ServerSettingsService";
+import {ConverterService} from "../../common/converters";
+import {Type} from "../../common/core/interfaces";
+import {nameOf} from "../../common/core/utils";
+import {OverrideService} from "../../common/di/decorators/overrideService";
+import {ValidationService} from "../../common/filters/services/ValidationService";
+import {JsonSchemesService} from "../../common/jsonschema/services/JsonSchemesService";
 import {AjvErrorObject, ErrorFormatter, IAjvOptions, IAjvSettings} from "../interfaces/IAjvSettings";
 
 @OverrideService(ValidationService)

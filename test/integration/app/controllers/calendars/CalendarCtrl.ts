@@ -21,7 +21,7 @@ import {
     Use,
     UseAfter
 } from "../../../../../src";
-import {HeaderParams} from "../../../../../src/filters/decorators/headerParams";
+import {HeaderParams} from "../../../../../src/common/filters/decorators/headerParams";
 import {MultipartFile} from "../../../../../src/multipartfiles/decorators/multipartFile";
 import {Deprecated} from "../../../../../src/swagger/decorators/deprecated";
 import {Description} from "../../../../../src/swagger/decorators/description";

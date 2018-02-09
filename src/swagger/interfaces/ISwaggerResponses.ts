@@ -4,7 +4,7 @@
 /** */
 
 import {Header} from "swagger-schema-official";
-import {Type} from "../../core/interfaces";
+import {Type} from "../../common/core/interfaces";
 
 export interface ISwaggerResponses {
     /**

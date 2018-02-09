@@ -2,7 +2,7 @@
  * @module swagger
  */
 /** */
-import {getDecoratorType} from "../../core/utils";
+import {getDecoratorType} from "../../common/core/utils";
 import {Operation} from "./operation";
 
 /**

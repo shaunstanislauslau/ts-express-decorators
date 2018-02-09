@@ -1,5 +1,5 @@
-import {Store} from "../../../../src/core/class/Store";
-import {descriptorOf} from "../../../../src/core/utils";
+import {Store} from "../../../../src/common/core/class/Store";
+import {descriptorOf} from "../../../../src/common/core/utils";
 import {Returns} from "../../../../src/swagger/decorators/returns";
 import {expect} from "../../../tools";
 
